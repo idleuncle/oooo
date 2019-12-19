@@ -11,14 +11,14 @@ from shutil import rmtree
 
 from setuptools import find_packages, setup, Command
 
-REQUIRED = []
+REQUIRED = ['numpy', 'pandas', 'sklearn']
 
 # Package meta-data.
-NAME = 'your_lib'
-DESCRIPTION = 'your_lib description.'
-URL = 'https://github.com/your_name/your_lib'
-EMAIL = 'your_name@gmail.com'
-AUTHOR = ''
+NAME = 'oooo'
+DESCRIPTION = 'Commonly used python utilities.'
+URL = 'https://github.com/idleuncle/oooo'
+EMAIL = '531045572@qq.com'
+AUTHOR = 'Jiangwen Su'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = None
 
